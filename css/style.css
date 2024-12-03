@@ -32,61 +32,65 @@ a{
     line-height: normal;
 }
 /* =========================== navbar part start ======================= */
-#navbar{ 
+#navber{
     width: 100%;
+    position: fixed;
+    background: #071B27;
     padding: 13px 0;
-    position: absolute;
     top: 0;
     left: 0;
 }
-
-.nav_items{
+.nav_wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-.button{
+.logo{
+   width: 20%;
+}
+.menu{
+    width: 60%;
+}
+.nav_btn{
+    width: 20%;
     display: flex;
     column-gap: 18px;
     justify-content: end;
-}
-.button a:last-child{
-    padding: 9px 45px;
 }
 .menu ul{
     display: flex;
     justify-content: center;
     column-gap: 30px;
 }
-.menu ul .menu_items a{
+.menu ul .menu_item a{
+    color: #fff;
     font-size: 16px;
     font-weight: 500;
-    color: #fff;
-    font-size: normal;
-    line-height: normal;
-    transition: all linear .3s ;
+    font-style: normal;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
 }
-.menu ul .menu_items a:hover{
+.menu ul .menu_item a:hover{
     color: #289BDE;
 }
-
-.button a{
+.nav_btn a{
     display: inline-block;
     padding: 9px 15px;
-    border-radius: 5px;
     font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
     color: #fff;
+    font-weight: 400;
+    font-style: normal;
     border: 1px solid #fff;
-    transition: .3s;
+    border-radius: 5px;
+    gap: 10px;
+    transition: all linear 0.3s;
 }
-
-.button a:hover{
-    background: #289BDE;
+.nav_btn a:hover{
+    background-color: #289BDE;
     border: 1px solid #289BDE;
 }
-
+.nav_btn a:last-child{
+    padding: 9px 45px;
+}
 
 /* =========================== navbar part end ======================= */
 
