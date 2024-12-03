@@ -371,71 +371,69 @@ a{
 
 /* =========================== mission vision part start ======================= */
 
-.vision-part{
+#one .one{
+    display: flex;
+}
+.one{
+    display: flex;
     margin-top: 140px;
-    display: flex;
-    justify-content: space-between;
 }
-.vision-part .vision-text .box{
-    display: flex;
-}
-.vision-part .vision-text .vision-heading h2{
-    width: 451px;
+.one .left .one_heading{
     color: #071B27;
+    font-family: Poppins;
+    max-width: 451px;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.4px;
 }
-.vision-part .vision-text .heading img{
-    width: 47px;
-    height: 47px;
+.one .left .one_comment{
     margin-top: 54px;
 }
-.vision-part .vision-text .text{
-    margin-left: 18px;
-}
-.vision-part .vision-text .text h5{
+.one .left .one_comment ul h3{
     color: #071B27;
+    font-family: Poppins;
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.26px;
-    margin-top: 54px;
-
+    
 }
-.vision-part .vision-text .text p{
-    width: 479px;
+.one .left .one_comment ul li img{
+    width: 47px;
+    height: 47px;
+}
+.one .left .one_comment ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.one .left .one_comment ul{
+   margin-top: 21px;
+}
+.one .left .one_comment ul li h3{
+    color: #071B27;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.one .left .one_comment ul p{
     color: #666;
+    font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
-    letter-spacing: 0.16px;
+    max-width: 479px;
     margin-top: 12px;
+    margin-left: 55px;
 }
-.vision-graphic{
-    margin-top: 70px;
-}
-.vision-graphic .graphic-items{
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    
-}
-.vision-graphic .graphic-items .inner-item1{
-    width: 211.398px;
-    height: 159.476px;
-    padding: 18.541px 18.544px 18.544px 18.543px;
-    position: absolute;
-    bottom: 0;
-    left: -140px;
-}
-.vision-graphic .graphic-items .inner-item2{
-    width: 590px;
-    height: 456px;
+.one .right img{
+    width: 662px;
+    height: 518.476px;
+    margin-left: 126px;
 }
 
 /* =========================== mission vision part end ======================= */
