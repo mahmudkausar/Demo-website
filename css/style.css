@@ -801,9 +801,9 @@ footer .box p{
     margin-top: 11px;
 }
 
-footer .box span i{
-    width: 24px;
-    height: 24px;
+footer .box span img{
+    width: 16px;
+    height: auto;
     text-align: center;
     margin-right: 8px;
 
@@ -863,7 +863,7 @@ footer .line .text{
     font-weight: 500;
     line-height: normal;
 }
-footer .line .icon i{
+footer .line .icon img{
  
     font-size: 20px;
     width: 30px;
